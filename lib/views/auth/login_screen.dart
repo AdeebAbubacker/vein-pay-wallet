@@ -117,24 +117,24 @@ class _LoginScreenState extends State<LoginScreen> {
                           : const Text('Login'),
                     ),
                     const SizedBox(height: 16),
-                    TextButton(
-                      onPressed: isLoading
-                          ? null
-                          : () {
-                              Navigator.push(
-                                context,
-                                MaterialPageRoute(
-                                  builder: (_) => const RegistrationScreen(),
-                                ),
-                              );
-                            },
-                      child: Text(
-                        'Create New Account',
-                        style: TextStyle(
-                          color: Theme.of(context).colorScheme.secondary,
-                        ),
-                      ),
-                    ),
+                    // TextButton(
+                    //   onPressed: isLoading
+                    //       ? null
+                    //       : () {
+                    //           Navigator.push(
+                    //             context,
+                    //             MaterialPageRoute(
+                    //               builder: (_) => const RegistrationScreen(),
+                    //             ),
+                    //           );
+                    //         },
+                    //   child: Text(
+                    //     'Create New Account',
+                    //     style: TextStyle(
+                    //       color: Theme.of(context).colorScheme.secondary,
+                    //     ),
+                    //   ),
+                    // ),
                   ],
                 ),
               ),

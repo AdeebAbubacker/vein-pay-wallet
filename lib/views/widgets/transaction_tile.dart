@@ -29,7 +29,7 @@ class TransactionTile extends StatelessWidget {
           style: TextStyle(color: Colors.grey[400]),
         ),
         trailing: Text(
-          '$amountPrefix ₹${transaction.amount.toStringAsFixed(2)}',
+          '₹${transaction.amount.toStringAsFixed(2)}',
           style: TextStyle(
             color: amountColor,
             fontWeight: FontWeight.bold,
